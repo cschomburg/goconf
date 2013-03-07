@@ -13,9 +13,9 @@
 //
 // You can then read and write this file from/into your own data types.
 //    myValue := struct{One, Two string}{"Hello", "World"}
-//
-//	  err := cfg.Write(myValue)
-//	  err := cfg.Read(&myValue)
+//    
+//    err := cfg.Write(myValue)
+//    err := cfg.Read(&myValue)
 package conf
 
 import (

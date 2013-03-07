@@ -21,7 +21,6 @@ type TestConfig struct {
 	Sub struct {
 		Field string
 	}
-	// Example config
 }
 
 
